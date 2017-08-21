@@ -24,15 +24,12 @@ function encipher(str, shift) {
   console.log('the output is ' + cipherWord);
   return cipherWord;
 };
-encipher();
 
 
+function decipher(str, shift) {
+}
 
-
-
-// function decipher(str, shift) {}
-
-// module.exports = {
-//   encipher,
-//   decipher
-// }
+module.exports = {
+  encipher,
+  decipher
+}
