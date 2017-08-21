@@ -28,7 +28,7 @@ function decipher(str, shift) {
   let arr = str.split('');
   for (var i = 0; i < arr.length; i++) {
     let letter = arr[i];
-    for (var j = 0; j < alpha.length; j++) {
+    for (var j = 26; j < alpha.length; j++) {
       if (letter === alpha[j]) {
         let newLetter = alpha[j - shift];
         newWord.push(newLetter);
